@@ -1,5 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import './styles/style.css';
 import {
   BrowserRouter as Router,
   Route,
@@ -7,9 +8,8 @@ import {
   Redirect,
 } from 'react-router-dom'
 
-import './style.css'
-import Home from './views/home'
-import NotFound from './views/not-found'
+import Home from './views/home/home'
+import NotFound from './views/not-found/not-found'
 
 const App = () => {
   return (
