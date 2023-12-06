@@ -1,4 +1,0 @@
-{
-  //Extensions recommended for users of this workspace.
-  "recommendations": ["esbenp.prettier-vscode", "eamodio.gitlens"]
-}
