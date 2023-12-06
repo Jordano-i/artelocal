@@ -1,0 +1,54 @@
+{
+    "files.eol": "\n",
+    "files.autoSave": "off",
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": { ".your_git_commit_message": true },
+    "files.readonlyInclude": {
+      "node_modules/**": true,
+      "package-lock.json": true
+    },
+  
+    "search.exclude": {
+      "node_modules/**": true,
+      "package-lock.json": true
+    },
+  
+    "json.schemas": [
+      { "fileMatch": ["/manifest.json"], "url": "http://json.schemastore.org/chrome-manifest" }
+    ],
+  
+    "workbench.editor.wrapTabs": true,
+  
+    "editor.rulers": [100],
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": { "source.fixAll.eslint": true },
+    "editor.insertSpaces": true,
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+  
+    "eslint.lintTask.enable": true,
+    "eslint.debug": true,
+    "eslint.format.enable": true,
+    "eslint.nodePath": "C:\\Program Files\\nodejs",
+    "eslint.run": "onSave",
+    "eslint.codeActionsOnSave.mode": "all",
+    "eslint.options": { "overrideConfigFile": "./.eslintrc.json", "ignorePath": ".gitignore" },
+  
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[html]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[jsonc]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[json]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+  
+    "prettier.ignorePath": ".gitignore",
+  
+    "git.terminalGitEditor": true,
+  
+    "terminal.integrated.autoReplies": {
+      "Terminate batch job (Y/N)": "Y\r"
+    },
+    "terminal.integrated.defaultProfile.windows": "Git Bash"
+  }
+  
